@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="corona.css">
+    <script src="corona.js" ></script>
+</head>
+<body>
+    <div id="silder">
+        <img src="corona1.jpg" id="img1">
+        <div class="entete_titre">
+            <h1>COVID-19</h1>
+            Restez <strong>chez vous</strong> 
+            <H4></H4><i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+        </H4> 
+
+        </div>
+        <div  id="btn_left" ><img src="navigate-left-icon.jpg" class="left" onclick="slider(-1);"> </div>
+        <div id="btn_right"><img src="navigate-right-icon.jpg" class="right" onclick="slider(1);"> </div>
+    </div>
+    <div id="menu">
+        <ul>
+            <li> <a href="corona.html">COVID-19</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="">News</a></li>
+            <li style="float:right"><a href="" class="active">Connexion</a></li>
+        </ul>
+    </div>
+    <div id="contenu">
+        <div class="titre">LE CORONAVIRUS, QU'EST CE QUE C'EST</div>
+        <p>
+            Les coronavirus forment une vaste famille de virus présents chez
+            l’homme et chez l’animal. Ils possèdent un génome à ARN extrêmement
+            long (plusieurs milliers de nucléotides*), et sont entourés 
+            d’une capsule de protéines en forme de couronne qui leur valent leur
+            nom. Il existe de nombreux sous-types de coronavirus infectant 
+            différentes espèces animales. L’Homme peut en héberger au moins sept.
+
+            Sur le plan médical, on distingue deux groupes de coronavirus
+            qui touchent l’être humain : les coronavirus peu pathogènes 
+            on en dénombre quatre actuellement), et les coronavirus hautement 
+            pathogènes, dont on ne connaît que deux représentants pour l’instant, 
+            le syndrome respiratoire aigu sévère (SRAS) et le Coronavirus 
+            du syndrome respiratoire du Moyen-Orient (MERS-CoV). En 2003, 
+            le SRAS avait infecté environ 8000 individus, 
+            causant la mort de 800 personnes dans le monde.
+        </p>
+        <b class="titre" >LES SYMPTOMES</b>
+        <p>Les personnes touchees pouvent ressentir les SYMPTOMES suivantes:</p>
+        <div class="colonne">
+           <a href="corona2.html"> <img src="fievre.jpg" class="image" style="width: 100%"></a>
+            <div class="middel">
+                <div class="text" >fievre</div>
+            </div>
+        </div>
+        
+        <div class="colonne">
+           <a href="corona3.html"> <img src="tous.jpg" class="image" style="width: 100%"></a>
+            <div class="middel">
+                <div class="text" >toux séche</div>
+            </div>
+        </div>
+        <div class="colonne">
+           <a href="corona4.html"> <img src="esperation.jpg" class="image" style="width: 100%"></a>
+            <div class="middel">
+                <div class="text" >diffeculte Resperatoire</div>
+            </div>
+        </div>
+    </div>
+    <div id="form">
+        <h2 id="h2">Abonnez-vous à notre liste de diffusion</h2>
+        <form id="inscription">
+            <input id="mail" type="text"placeholder="exemple@exempl.fr" 
+            required autocomplete="off"><br>
+            <input id="pass" type="password" placeholder="password" >
+            
+            <button id="btn" type="submit"> inscription</button>
+
+        </form>
+    </div>
+    <div id="footer">
+        <h3>Coronavirus</h3>
+        <h5><i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </h5>
+       
+       
+        
+
+    </div>
+    <script src="https://kit.fontawesome.com/e8aefeb3c6.js" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

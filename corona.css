@@ -1,0 +1,365 @@
+body, html,*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+#silder{
+    background-color: #ccc;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    
+}
+
+#img1{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+}
+#btn_left{
+    width: 100px;
+    height: 550px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+#btn_right{
+    width: 100px;
+    height: 550px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.left{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    width: 60px;
+    height: 70px;
+    opacity: 0.4;
+}.left:hover{
+    opacity: 1;
+}
+.right{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    width: 60px;
+    height: 70px;
+    opacity: 0.4;
+}.right:hover{
+    opacity: 1;
+   
+}
+.entete_titre{
+    background-color: rgb(241, 145, 145);
+    text-align: center;
+    color: white;
+    padding:20px;
+    position:absolute;
+    top: 60%;
+    line-height: normal;
+}
+#h{
+    font-size: 40px;
+    line-height: normal;
+
+}
+#menu{
+    background-color: #333;
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+li{ 
+    float: left;
+
+}
+li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+    display: block;
+    text-align: center;
+    
+}
+li a:hover:not(active){
+    background: #f00a3c;
+}
+.active{
+    background-color: #f00a3c;
+}
+#contenu{
+    width: 90%;
+    margin-left: auto;margin-right: auto;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-top: 20px ;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.titre{
+    font-size: 26px;
+    width: 90%;
+    color: #676162;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+p{
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom :15px ;
+    color: #313030;
+}
+.colonne{
+    position:static;
+    float: left;
+    width: 30%;
+    min-height: 200px;text-align: center;
+    margin: 10px;
+    padding: 5px;
+
+}
+.image{
+    opacity: 1;
+   display: block;
+    width: 100%; height: 180px;
+    transition: 0,5s ease;
+    backface-visibility: hidden;
+}
+
+.text{
+position: relative;
+background: #f00a3c;
+background-color:#FCFBFB ;
+font-size: 16px;
+padding: 16px 32px;
+cursor:pointer;
+}
+.colonne:hover .image{
+ opacity: 0.3;
+}
+.colonne:hover.middel{
+    opacity: 1;
+}
+#form{
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+    padding: 30% 0;
+    text-align: center;
+    height: 50px;
+  
+   
+}
+#h2{
+    font-size: 30px;
+    margin: 0 0 1% 0;
+  
+    font-weight: 100;
+}
+
+#h11{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    
+}
+#img{
+ 
+    width:  30%;
+    float:left;
+    padding: 25px;
+    margin: 25px;
+
+}
+
+#parg{
+    width:70%;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#i1{
+    height:700px;
+    width: 330px;
+}
+#info p {
+    padding-right: 20px;
+    margin: 0 20px 0 20px;
+}
+.H2{
+ margin-right :25px;
+}
+
+#inscription{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+#mail{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f00a3c;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 1.5;
+    color: black;
+    outline: none;
+    
+
+}
+#pass{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f00a3c;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    outline: none;
+}
+#btn{
+    margin-top: 3%;
+    border-radius: 25px;
+    text-align: center;
+    color: #313030;
+    background-color: transparent;
+    border: solid 2px;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+    transition: 2s;
+}
+#btn:hover{
+    background-color: #f00a3c;
+}
+#footer{
+    clear: left;
+    padding: 20px;
+    bottom: 0;
+    text-align: center;
+    margin-top: auto;
+    background: gray;
+}
+
+h5{
+    color: rgb(44, 42, 42);
+
+}
+ @media screen and (max-width: 990px){
+    .colonne {
+       
+        width: 28%;
+
+
+    }
+    #h2{
+    
+        margin-top: 50px;
+       
+     }
+   
+ }
+ @media screen and (max-width: 790px){
+    .colonne {
+       
+        width: 25%;
+        margin:  30px 20px 10px 25px
+
+    }
+    #h2{
+    
+        margin-top: 40px;
+       
+     }
+     #footer{
+    
+        padding: 5px;
+        bottom: 0px;
+        margin-top: 120px;
+       
+    }
+
+ }
+
+ @media screen and (max-width: 580px){
+     ul{
+         font-size: 10px;
+     }
+    p{
+        margin: 1px;
+    }
+    #contenu{
+        
+        
+        padding-left: 5px;
+        padding-top: 20px ;
+        padding-right: 5px;
+        padding-bottom: px;
+    }
+    .titre{
+        font-size: 20px;
+        
+        
+    }
+     .colonne{
+         width: 22%;
+         margin:  30px 12px 0px 12px
+     }
+     .image{
+        width: 60%; height: 100px;
+     }
+     .text{
+        font-size: 10px;
+        padding: 10px 14px;
+
+
+     }
+     #h2{
+        font-size: 18px;
+        font-weight: 50px;
+        margin: 5px;
+       
+     }
+     #inscription{
+      
+        max-width: 570px;
+       
+     }
+     #form{
+        padding: 30% 20%;
+     }
+
+
+#footer{
+    
+    padding: 5px;
+    bottom: 0;
+    
+    margin-top: 180px;
+   
+}
+
+ }
